@@ -1,0 +1,33 @@
+{% extends "PizzeriaManuel/padre.html" %}
+
+{% load static %}
+
+{% block container %}
+
+<section>
+    <h2 class="display-4 fw-bolder text-center p-3"> Crear Producto</h2>
+    <article class="row form-px">
+
+        <img src="https://t3.ftcdn.net/jpg/04/01/49/06/360_F_401490680_XoNjGmIzDK3eYHAVu1plNXWjMDYbB4rZ.jpg"
+            alt="empanadas" class="col d-none d-sm-block col-lg-6 w-50">
+
+        <form action="" method="POST" class="col col-sm-12 col-lg-6 form-rg ">{% csrf_token %}
+
+            <div class="form-list">
+                {{ miFormulario.as_p}}
+            </div>
+
+            {% if miForm.errors %}
+            <p class="text-danger fw-bolder">Por favor ingrese datos validos.</p>
+            {% endif %}
+
+            <button type="submit" class="btn btn-primary mt-3">Crear Producto</button>
+
+        </form>
+
+    </article>
+</section>
+
+
+
+{% endblock %}

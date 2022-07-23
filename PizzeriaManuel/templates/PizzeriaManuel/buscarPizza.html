@@ -1,0 +1,16 @@
+{% extends "PizzeriaManuel/padre.html" %}
+
+{% load static %}
+
+{% block container %}
+
+<form action="/PizzeriaManuel/" method="GET" class="container p-5 bg-alto">
+    <h2 class="display-4 fw-bolder text-center p-3">Buscar Pizza</h2>
+
+    <div class="searchbar">
+        <input type="text" placeholder="Buscar Producto" name="nombre" id="nombre" class="form-label">
+        <input type="submit" value="Buscar" class="btn btn-dark">
+    </div>
+</form>
+
+{% endblock %}
