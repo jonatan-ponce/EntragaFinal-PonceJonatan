@@ -1,4 +1,5 @@
-# Entrega1-Ponce
+# EntregaFinal-JonatanPonce-AgustinJimenez
+
 #App PizzeriaManuel
 Una aplicacion de pizzeria hecha con Python, usando django
 ## Documentacion
@@ -13,6 +14,6 @@ Formulario que hace envio de los datos ingresados al backend.
  ## urls.py
 Configuracion de rutas.
 
-## Lo que no pude hacer
+## Lo que no pudimos lograr hacer
+No pudimos lograr adaptar otro template al login y que nos cargue lo que contiene dicho template en static. Tampoco pudimos adaptar el login que sea obligatorio en las distintas vistas
 
-Quiero poder cambiar los colores de fuentes tanto de los botones que nos llevan a distantas urls como las fuentes de la informacion que vemos en la pantalla de inicio. Pero aun no pude lograrlos.
