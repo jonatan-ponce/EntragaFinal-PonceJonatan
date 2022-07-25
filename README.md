@@ -15,5 +15,7 @@ Formulario que hace envio de los datos ingresados al backend.
 Configuracion de rutas.
 
 ## Lo que no pudimos lograr hacer
-No pudimos lograr adaptar otro template al login y que nos cargue lo que contiene dicho template en static. Tampoco pudimos adaptar el login que sea obligatorio en las distintas vistas
+No pudimos lograr adaptar otro template al login y que nos cargue lo que contiene dicho template en static. Tampoco pudimos adaptar el login que sea obligatorio en las distintas vistas.
+Tambien tenemos problemas para adaptar los avatares. Lo habiamos hecho pero lo eliminamos porque teniamos problemas en la app.
+
 
