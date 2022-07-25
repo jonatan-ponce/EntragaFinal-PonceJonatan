@@ -18,4 +18,5 @@ Configuracion de rutas.
 No pudimos lograr adaptar otro template al login y que nos cargue lo que contiene dicho template en static. Tampoco pudimos adaptar el login que sea obligatorio en las distintas vistas.
 Tambien tenemos problemas para adaptar los avatares. Lo habiamos hecho pero lo eliminamos porque teniamos problemas en la app.
 
-
+## Super usuario
+Creamos un usuario para administrar django con python manage.py createsuperuser.
