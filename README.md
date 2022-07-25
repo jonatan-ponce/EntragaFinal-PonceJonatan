@@ -20,3 +20,6 @@ Tambien tenemos problemas para adaptar los avatares. Lo habiamos hecho pero lo e
 
 ## Super usuario
 Creamos un usuario para administrar django con python manage.py createsuperuser.
+
+## Video App
+https://drive.google.com/file/d/1XbrF4ULrclGCJl4WHvKIFqdA3p4XfyxD/view?usp=sharing
